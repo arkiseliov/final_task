@@ -1,0 +1,4 @@
+INSERT INTO departments (department_name)
+SELECT DISTINCT DEPARTMENT_NAME
+FROM report
+WHERE (DEPARTMENT_NAME is not NULL);
